@@ -1,0 +1,16 @@
+{
+  "name": "regex-pattern",
+  "version": "1.0.0",
+  "description": "A simple Javascript & TypeScript module of Regex Pattern Collection for String Validation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "febryardiansyah",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
