@@ -7,7 +7,7 @@ A simple Javascript & TypeScript module of Regex Pattern Collection for String V
 
 ## Installation
 ```bash
-npm i regex-pattern
+npm i regexpattern-collection
 ```
 
 ## Usage
