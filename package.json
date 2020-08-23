@@ -1,5 +1,5 @@
 {
-  "name": "regex-pattern",
+  "name": "regexpattern-collection",
   "version": "1.0.0",
   "description": "A simple Javascript & TypeScript module of Regex Pattern Collection for String Validation",
   "main": "dist/index.js",
@@ -14,7 +14,6 @@
   "bugs":{
     "url": "https://github.com/febryardiansyah/regex-pattern/issues"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
     "regex",
     "regexp",

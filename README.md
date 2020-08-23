@@ -1,10 +1,9 @@
 # Regex-Pattern
 A simple Javascript & TypeScript module of Regex Pattern Collection for String Validation
 
-<p align="center">
+[![Version](https://img.shields.io/npm/v/regexpattern-collection.svg?style=flat)](https://www.npmjs.com/package/regexpattern-collection)
 <img alt="GitHub" src="https://img.shields.io/github/license/febryardiansyah/regex-pattern"> 
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/febryardiansyah/regex-pattern">
-</p>
 
 ## Installation
 ```bash
@@ -14,7 +13,7 @@ npm i regex-pattern
 ## Usage
 1. Javascript
 ```javascript
-const { RegexValidation, RegexPattern } = require("regex-pattern").default;
+const { RegexValidation, RegexPattern } = require("regexpattern-collection").default;
 
 RegexValidation.hasMatch("yourcrush@mail.com", RegexPattern.email);//true
 RegexValidation.hasMatch("yourcrush", RegexPattern.email);//false
@@ -22,7 +21,7 @@ RegexValidation.hasMatch("yourcrush", RegexPattern.email);//false
 
 2. TypeScript
 ```typescript
-import { RegexValidation, RegexPattern } from "regex-pattern"
+import { RegexValidation, RegexPattern } from "regexpattern-collection"
 
 RegexValidation.hasMatch("yourcrush@mail.com", RegexPattern.email);//true
 ```
@@ -51,12 +50,12 @@ RegexValidation.hasMatch("yourcrush@mail.com", RegexPattern.email);//true
 |RegexPattern.passwordComplex | Password Complex | Should have 1 lowercase letter, 1 uppercase letter, 1 number, 1 special character and be at least 8 characters long|
 |RegexPattern.passwordModerate | Password Moderate | Should have 1 lowercase letter, 1 uppercase letter, 1 number and be at least 8 characters long|
 |RegexPattern.filenameWithExtension | File Name With Extension | support all extension (mp4, mp3, wav, png, jpg, gif, etc.) |
-|RegexPattern.imageExtension | Image Extension | (jpeg|jpg|gif|png|bmp) |
-|RegexPattern.audioExtension | Audio Extension | (mp3|wav|wma|amr|ogg) |
-|RegexPattern.videoExtension | Video Extension | (mp4|avi|wmv|rmvb|mpg|mpeg|3gp) |
+|RegexPattern.imageExtension | Image Extension | jpeg,jpg,gif,png,bmp |
+|RegexPattern.audioExtension | Audio Extension | mp3,wav,wma,amr,ogg |
+|RegexPattern.videoExtension | Video Extension | mp4,avi,wmv,rmvb,mpg,mpeg,3gp |
 |RegexPattern.pdfExtension | PDF Extension | pdf |
 |RegexPattern.binary | Binrary | binary numbers |
 |RegexPattern.currency | Currency | country currency |
 
 ## License
-[MIT]()
+[MIT](https://github.com/febryardiansyah/regex-pattern/blob/master/LICENSE)
