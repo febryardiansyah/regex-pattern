@@ -1,4 +1,4 @@
-# Regex-Patterne
+# Regex-Pattern
 A simple Javascript & TypeScript module of Regex Pattern Collection for String Validation
 
 <p align="center">

@@ -7,7 +7,23 @@
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/febryardiansyah/regex-pattern.git"
+  },
+  "bugs":{
+    "url": "https://github.com/febryardiansyah/regex-pattern/issues"
+  },
+  "keywords": [
+    "regex",
+    "regexp",
+    "email validation",
+    "email validator",
+    "validator",
+    "regexp validation",
+    "password validator",
+    "email regex"
+  ],
   "author": "febryardiansyah",
   "license": "MIT",
   "devDependencies": {
