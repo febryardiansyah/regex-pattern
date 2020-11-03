@@ -11,7 +11,7 @@ npm i regexpattern-collection
 ```
 
 ## Usage
-1. Javascript
+1. CommonJs
 ```javascript
 const { RegexValidation, RegexPattern } = require("regexpattern-collection").default;
 
@@ -19,7 +19,7 @@ RegexValidation.hasMatch("yourcrush@mail.com", RegexPattern.email);//true
 RegexValidation.hasMatch("yourcrush", RegexPattern.email);//false
 ```
 
-2. TypeScript
+2. ES6
 ```typescript
 import { RegexValidation, RegexPattern } from "regexpattern-collection"
 
