@@ -1,5 +1,13 @@
 # Regex-Pattern
-A simple Javascript & TypeScript module of Regex Pattern Collection for String Validation
+<br>
+<p align="center">
+  <img width=480 src="docs/logo.png">
+</p>
+<br>
+<p align="center">
+  A simple Javascript & TypeScript module of Regex Pattern Collection for String Validation
+</p>
+<br>
 
 [![Version](https://img.shields.io/npm/v/regexpattern-collection.svg?style=flat)](https://www.npmjs.com/package/regexpattern-collection)
 <img alt="GitHub" src="https://img.shields.io/github/license/febryardiansyah/regex-pattern"> 
