@@ -34,6 +34,9 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+# Node.js configuration
+package-lock.json
+
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
@@ -46,6 +49,9 @@ typings/
 
 # TypeScript cache
 *.tsbuildinfo
+
+# Typescript build / generate output
+dist
 
 # Optional npm cache directory
 .npm

@@ -1,6 +1,6 @@
 {
   "name": "regexpattern-collection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Javascript & TypeScript module of Regex Pattern Collection for String Validation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
