@@ -38,9 +38,11 @@ RegexValidation.hasMatch("yourcrush@mail.com", RegexPattern.email);//true
 
 | Pattern   |     Type      | Description   |
 | --------  | -----------   | ------------  |
-|RegexPattern.email | Email |      Email    |
+|RegexPattern.email | Email |      email    |
 |RegexPattern.userName | Username |that may include _ and – having a length of 3 to 16 characters|
-|RegexPattern.url | Url | Url that contains http/https |
+|RegexPattern.url | Url | any url (https://, ftps://, tg://, zoommtg://, etc) |
+|RegexPattern.webUrl | Web URL | http,https |
+|RegexPattern.fileUrl | File URL | afp,ftp,ftps,smb,sftp,ssh,dav,davs |
 |RegexPattern.numberOnly | Number Only | only contains numbers|
 |RegexPattern.decimalNumber | Decimal Number | only contains decimal |
 |RegexPattern.htmltag | HTML Tag | only contains html tag |
