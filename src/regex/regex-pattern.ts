@@ -141,6 +141,11 @@ export default class RegexPattern{
     static videoExtension = /.(mp4|avi|wmv|rmvb|mpg|mpeg|3gp)$/
 
     /**
+     * @OCExtension regex
+     */
+     static ocExtension = /.(xlsx|xls|csv)$/
+
+    /**
      * @pdfExtension regex
      */
     static pdfExtension = /.pdf$/
