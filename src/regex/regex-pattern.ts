@@ -159,4 +159,9 @@ export default class RegexPattern{
      * @currency regex
      */
     static currency = /^(S?\$|\₩|Rp|\¥|\€|\₹|\₽|fr|R$|R)?[ ]?[-]?([0-9]{1,3}[,.]([0-9]{3}[,.])*[0-9]{3}|[0-9]+)([,.][0-9]{1,2})?( ?(USD?|AUD|NZD|CAD|CHF|GBP|CNY|EUR|JPY|IDR|MXN|NOK|KRW|TRY|INR|RUB|BRL|ZAR|SGD|MYR))?$/
+    
+    /**
+     * @hex regex
+     */
+    static hex = /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 }
