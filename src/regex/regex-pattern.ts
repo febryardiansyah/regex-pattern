@@ -150,10 +150,15 @@ export default class RegexPattern{
      */
     static pdfExtension = /.pdf$/
      
-     /**
-      * @Base64 regex
-      */
+    /**
+     * @base64 regex
+     */
     static base64 = /^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/
+
+    /**
+     * @bitcoinAddress regex
+     */
+    static bitcoinAddress = /^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$/
 
     /**
      * @binary regex
