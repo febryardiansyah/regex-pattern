@@ -143,13 +143,23 @@ export default class RegexPattern{
     /**
      * @OCExtension regex
      */
-     static ocExtension = /.(xlsx|xls|csv)$/
-
+    static ocExtension = /.(xlsx|xls|csv)$/
+     
     /**
      * @pdfExtension regex
      */
     static pdfExtension = /.pdf$/
-    
+     
+    /**
+     * @base64 regex
+     */
+    static base64 = /^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/
+
+    /**
+     * @bitcoinAddress regex
+     */
+    static bitcoinAddress = /^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,39}$/
+
     /**
      * @binary regex
      */
