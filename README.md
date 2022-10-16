@@ -63,8 +63,11 @@ RegexValidation.hasMatch("yourcrush@mail.com", RegexPattern.email);//true
 |RegexPattern.imageExtension | Image Extension | jpeg,jpg,gif,png,bmp |
 |RegexPattern.audioExtension | Audio Extension | mp3,wav,wma,amr,ogg |
 |RegexPattern.videoExtension | Video Extension | mp4,avi,wmv,rmvb,mpg,mpeg,3gp |
+|RegexPattern.ocExtension | OC Extension | xlsx,xls,csv |
 |RegexPattern.pdfExtension | PDF Extension | pdf |
 |RegexPattern.binary | Binrary | binary numbers |
+|RegexPattern.base64 | Base64 | Base64 format |
+|RegexPattern.jwt | JWT | JSON Web Token format |
 |RegexPattern.currency | Currency | country currency |
 
 ## License
