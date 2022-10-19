@@ -176,7 +176,13 @@ export default class RegexPattern{
     static hex = /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
     
     /**
-   * @facebookProfileUrl
-   */
+     * @facebookProfileUrl
+    */
     static facebookProfileUrl = /(?:http:\/\/)?(?:www\.)?facebook\.com\/(?:(?:\w)*#!\/)?(?:pages\/)?(?:[\w\-]*\/)*([\w\-]*)/;
+    
+    /**
+     * @twitterUsername regex
+     */
+     static twitterUsername = /@([A-Za-z0-9_]{1,15})/
+    
 }
