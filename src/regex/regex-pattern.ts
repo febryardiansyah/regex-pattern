@@ -185,4 +185,8 @@ export default class RegexPattern{
      */
      static twitterUsername = /@([A-Za-z0-9_]{1,15})/
     
+     /**
+      * @cssAttributes
+      */
+     static cssAttributes = /^\s*[a-zA-Z\-]+\s*[:]{1}\s[a-zA-Z0-9\s.#]+[;]{1}/
 }
