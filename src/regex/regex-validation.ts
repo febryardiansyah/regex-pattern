@@ -1,10 +1,10 @@
 export default class RegexValidation {
-    static hasMatch(s: string, p: RegExp):boolean {
+    static hasMatch(input: string, regex: RegExp): boolean {
         //check if s or p value are null or undefined
-        if(!s || !p) return false;
+        if (!input || !regex) return false;
         //check type of s if not string
-        if(typeof s !== "string")return false;
+        if (typeof input !== "string") return false;
         //matching if s value is match to regex pattern
-        return s.match(new RegExp(p))?true:false;
+        return input.match(new RegExp(regex)) ? true : false;
     }
 }
