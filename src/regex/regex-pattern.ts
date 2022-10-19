@@ -174,4 +174,9 @@ export default class RegexPattern{
      * @hex regex
      */
     static hex = /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+    
+    /**
+   * @facebookProfileUrl
+   */
+    static facebookProfileUrl = /(?:http:\/\/)?(?:www\.)?facebook\.com\/(?:(?:\w)*#!\/)?(?:pages\/)?(?:[\w\-]*\/)*([\w\-]*)/;
 }
